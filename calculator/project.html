@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        html ,body{
+            height: 100%;
+            width: 100%;
+        }
+       .text-center{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+        font-family:italic;
+       }
+       .flex{
+        display: flex;
+       }
+       .flex-col{
+        flex-direction: column;
+       }
+       .item-center{
+        align-items: center;
+       }
+       .button{
+        padding: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgb(56, 54, 54);
+    color: aliceblue;
+    width: 53px;
+       }
+       .row{
+        margin: 2px 0;
+       }
+       .row input{
+        margin: 6px;
+    padding: 7px;
+    width: 198px;
+    font-size: 25px;
+    background-color: rgb(50, 49, 52);
+    color: aliceblue;
+}
+.container{
+    background-color: black;
+    height: 57vh;
+}
+       
+    </style>
+</head>
+<body>
+    <h1 class="text-center">CASIO fx 82ms</h1>
+    <div class="container flex flex-col item-center">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+        <button class="button">AC</button>
+            <button class="button">M+</button>
+            <button class="button">M-</button>
+            <button class="button">C</button>
+        </div>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+
+        </div>
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">=</button>
+
+        </div>
+        <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+
+        </div>
+        <div class="row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">-</button>
+            <button class="button">%</button>
+
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
